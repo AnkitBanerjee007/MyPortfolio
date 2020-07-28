@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DigitalCV</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+		
+
+	<div class="site-main-wrapper">
+
+		<button class="hamburger"><i class="fa fa-bars fa-3x" aria-hidden="true"></i></button>
+		<div class="mobile-nav">
+			<button class='times'><i class="fa fa-times fa-3x" aria-hidden="true"></i></button>
+
+			<ul>
+				<li><a href="#Home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#services">Interests</a></li>
+				<li><a href="#project">Projects</a></li>
+				<li><a href="#blog">Blogs</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
+
+
+
+		<header>
+			<div class="container">
+				<nav id='main-nav' class='flex items-center justify-between'> 
+					<div class="left flex items-center">
+						<div class="logo">
+							<img src="./images/icon.png">
+
+						</div>
+						<div>
+							<a href="#">Home</a>
+							<a href="#about">About</a>
+							<a href="#services">Interests</a>
+							<a href="#project">Projects</a>
+							<a href="#blog">Blog</a>
+						</div>
+					</div>
+					<div class="right">
+						<button class='btn btn-primary' onclick="sendEmail();">Contact</button>
+					</div>
+				</nav>
+				<div class="hero flex items-center justify-between">
+					<div class="left flex-1 flex justify-center">
+						<img src="./images/man.svg">
+					</div>
+					<div class="right flex-1">
+						<h6>Ankit Banerjee</h6>
+						<h1>I am an Electronics major, <span> Web-Designer</span>	</h1>
+						<p>A motivated and creative developer with a huge interest in both hardware and software.
+						 </p>
+						<div>
+							<button onclick="document.location='Ankit_Banerjee_resume.pdf'" class='btn btn-secondary'>Resume</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+
+
+
+
+
+
+		<section id='about' class="about">
+			<div class="container flex items-center about-inner-wrap">
+				<div class="flex-1">
+					<img class='about_img' src="./images/about.svg">
+				</div>
+				<div class="flex-1 right">
+					<h1>About <span> Me</span></h1>
+					<h3>Hello! I am Ankit Banerjee.</h3>
+					<p> A motivated and curious student with a huge interest in both hardware and software.
+						,Good Management skills.
+						, Love to work on projects and believe in practical knowledge.
+						, Passionate about teaching.
+						Experience -- Worked on Machine Learning projects.(link provided with projects below)
+						Worked on DeepLearning project( Image classification implemented using Deep Neural Networks)
+						Made a few website templates using CSS,HTML, JAVASCRIPT. ( link provided with projects)
+					</p>
+					<div class='social'>
+						
+						<a href="https://github.com/AnkitBanerjee007"><img src="./images/git.png"></a>
+						<a href="#"><img src="./images/fb.png"></a>
+						<a href="#"><img src="./images/insta.png"></a>
+						<a href="#"><img src="./images/twit.png"></a>
+						<a href="mailto:ankitbanerjee983@gmail.com"><img src="./images/gmail.png"></a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+
+
+
+
+
+		<section id='services' class="services">
+			<div class="container">
+				<h1 class="section-heading">Areas of <span> Interest</span></h1>
+				<p>My areas of interest vary throughout a wide spectrum.</p>
+				<div class="card-wrapper">
+					<div class="card">
+						<img src="./images/icon2.png">
+						<h2>Webpage Design.</h2>
+						<p>Designing beautiful webpages for your company and taking your business to the next level.</p>
+					</div>
+					<div class="card">
+						<img src="./images/icon1.png">
+						<h2>VLSI Design.</h2>
+						<p>Designing hardwares specially Digital Circuits.</p>
+					</div>
+					<div class="card">
+						<img src="./images/icon3.png">
+						<h2>Machine Learning.</h2>
+						<p>From analyzing data to training models,expertise in deploying them in beautiful websites.</p>
+					</div>
+					<div class="card">
+						<img src="./images/icon2.png">
+						<h2>Deep Learning.</h2>
+						<p>Training Neural Networks and recognizing patterns in data through various tools.</p>
+					</div>
+					<div class="card">
+						<img src="./images/icon1.png">
+						<h2>Embedded Systems.</h2>
+						<p>A very important part of our lives.</p>
+					</div>
+					<div class="card">
+						<img src="./images/icon3.png">
+						<h2>IOT.</h2>
+						<p>Creating IOT Devices to change the way of living.</p>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+
+
+
+
+
+
+
+		<section class='hire'>
+			<h1>I'm open for hiring.</h1>
+			<p>I am open to all kinds of projects and Collaborations. Do contact me to include me in your projects.</p>
+			<button class='btn btn-primary' onclick="sendEmail();">Mail me.</button>
+		</section>
+
+
+
+
+
+
+
+
+		<section id='project' class="work">
+			<div class="container">
+				<h1 class='section-heading'><span>My</span> Projects</h1>
+				<p>For more projects please visit my github profile.</p>
+				<div class="card-wrapper">
+					<div class="card">
+						<div class="overlay">
+							<span>Website</span>
+							<a href="https://ankitbanerjee007.github.io/Cookery-LandingPage/">Cookery</a>
+						</div>
+						<img src="./images/cookeryfront1.png">
+					</div>
+					<div class="card">
+						<div class="overlay">
+							<span>Website</span>
+							<a href="https://ankitbanerjee007.github.io/To-do-list-app/">To-do lists</a>
+						</div>
+						<img src="./images/todolist.png">
+					</div>
+					<div class="card">
+						<div class="overlay">
+							<span>Website(In progress)</span>
+							<a href="https://ankitbanerjee007.github.io/Enginea/">Enginea</a>
+						</div>
+						<img src="./images/engineapic.png">
+					</div>
+					<div class="card">
+						<div class="overlay">
+							<span>Website</span>
+							<a href="https://ankitbanerjee007.github.io/Syllabusopedia/">Syllabusopedia</a>
+						</div>
+						<img src="./images/sylpic.png">
+					</div>
+					<div class="card">
+						<div class="overlay">
+							<span>Webpage</span>
+							<a href="https://ankitbanerjee007.github.io/Signin-Signup-form/">Signup Signin form</a>
+						</div>
+						<img src="./images/signpic.png">
+					</div>
+					<div class="card">
+						<div class="overlay">
+							<span>Machine Learning</span>
+							<a href="https://github.com/AnkitBanerjee007/MercedesBenz--Test-Bench-Python-">Mercedes</a>
+						</div>
+						<img src="./images/mercedes.png">
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+
+
+
+
+
+
+
+
+		<section id='blog' class="blog">
+			<div class="container">
+				<h1 class='section-heading'><span>My</span> Blogs</h1>
+				<p>Coming soon !!</p>
+				<div class="card-wrapper">
+					<div class="card">
+						<div class="img-wrapper">
+							<img src="./images/back1.png">
+						</div>
+						<div class="card-content">
+							<a href="">
+								<h1>Coming Soon!!</h1>
+							</a>
+							<span>March 17,2000</span>
+							<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</p>
+							<a href="#" class=read><u>Read More</u></a>
+						</div>
+					</div>
+					<div class="card">
+						<div class="img-wrapper">
+							<img src="./images/back1.png">
+						</div>
+						<div class="card-content">
+							<a href="">
+								<h1>Coming Soon!!.</h1>
+							</a>
+							<span>March 17,2000</span>
+							<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</p>
+							<a href="#" class='read'><u>Read More</u></a>
+						</div>
+					</div>
+					<div class="card">
+						<div class="img-wrapper">
+							<img src="./images/back1.png">
+						</div>
+						<div class="card-content">
+							<a href="">
+								<h1>Coming Soon!!</h1>
+							</a>
+							<span>March 17,2000</span>
+							<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</p>
+							<a href="#" class=read><u>Read More</u></a>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</section>
+
+
+
+
+
+
+
+
+
+
+
+		<section id='#contact' class="contact">
+			<div class="container">
+				<h1 class='section-heading'>Contact <span>Me</span></h1>
+				<p>Contact form under construction. Please use the above Contact buttons.</p>
+				<div class="card-wrapper">
+					<div class="card">
+						<img src="./images/phone.png">
+						<h1>Call me</h1>
+						<h6>+1234567890</h6>
+					</div>
+					<div class="card">
+						<img src="./images/gmail.png">
+						<h1>Mail me</h1>
+						<h6>abcd@gmail.com</h6>
+					</div>
+					<div class="card">
+						<img src="./images/insta.png">
+						<h1>My designs</h1>
+						<h6>This is my gallery account.</h6>
+					</div>
+				</div>
+				<form>
+					<div class='input-wrap'>
+					<input type="text" name="" placeholder="Your Name">
+					<input type="email" name="" placeholder="Your email">
+					</div>
+					<div class="input-wrap-2">
+						<input type="text" name="" placeholder="Your Subject.">
+						<textarea placeholder="Your message"></textarea>
+					</div>
+					
+					<div class='btn-wrapper'>
+						<button class='btn btn-primary'>Send message</button>
+					</div>
+				</form>
+			</div>
+		</section>
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
